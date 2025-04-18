@@ -21,5 +21,5 @@ mamba install -c conda-forge pip numpy=1.26.4 scipy scikit-learn cadquery moab=5
 Pip install the remaining ParaStell Python dependencies:
 
 ```
-pip install netCDF4 pyyaml pytest git+https://github.com/aaroncbader/pystell_uw.git
+pip install netCDF4 pyyaml pytest git+https://github.com/aaroncbader/pystell_uw.git git+https://github.com/svalinn/pydagmc.git
 ```
